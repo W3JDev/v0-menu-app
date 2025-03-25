@@ -1,0 +1,175 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "description": "Small plates to start your meal"
+    },
+    {
+      "id": "mains",
+      "name": "Main Courses",
+      "description": "Hearty entrees for the main course"
+    },
+    {
+      "id": "sides",
+      "name": "Sides",
+      "description": "Delicious accompaniments to your meal"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Sweet treats to finish your meal"
+    },
+    {
+      "id": "drinks",
+      "name": "Beverages",
+      "description": "Refreshing drinks and cocktails"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "name": "Seasonal Salad",
+      "description": "Mixed greens with seasonal vegetables, candied walnuts, and housemade vinaigrette",
+      "price": 12.95,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Seasonal+Salad",
+      "categoryId": "appetizers",
+      "ingredients": ["Mixed greens", "Seasonal vegetables", "Candied walnuts", "House vinaigrette"],
+      "allergens": ["Nuts"],
+      "dietaryInfo": ["Vegetarian", "Gluten-Free"],
+      "popular": true,
+      "featured": true,
+      "vegetarian": true
+    },
+    {
+      "id": "2",
+      "name": "Artisanal Cheese Plate",
+      "description": "Selection of local cheeses served with honey, fruit preserves, and artisan crackers",
+      "price": 18.50,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Cheese+Plate",
+      "categoryId": "appetizers",
+      "ingredients": ["Assorted cheeses", "Honey", "Fruit preserves", "Artisan crackers"],
+      "allergens": ["Dairy", "Gluten"],
+      "dietaryInfo": ["Vegetarian"],
+      "vegetarian": true
+    },
+    {
+      "id": "3",
+      "name": "Herb-Crusted Salmon",
+      "description": "Wild-caught salmon with a herb crust, served with roasted vegetables and lemon-dill sauce",
+      "price": 28.95,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Herb+Crusted+Salmon",
+      "categoryId": "mains",
+      "ingredients": ["Wild salmon", "Fresh herbs", "Seasonal vegetables", "Lemon-dill sauce"],
+      "allergens": ["Fish"],
+      "dietaryInfo": ["Gluten-Free"],
+      "popular": true,
+      "featured": true
+    },
+    {
+      "id": "4",
+      "name": "T&A Signature Burger",
+      "description": "House-ground beef patty with aged cheddar, caramelized onions, and special sauce on a brioche bun",
+      "price": 19.95,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Signature+Burger",
+      "categoryId": "mains",
+      "ingredients": ["House-ground beef", "Aged cheddar", "Caramelized onions", "Special sauce", "Brioche bun"],
+      "allergens": ["Dairy", "Gluten", "Egg"],
+      "popular": true
+    },
+    {
+      "id": "5",
+      "name": "Seasonal Vegetable Risotto",
+      "description": "Creamy arborio rice with seasonal vegetables, white wine, and parmesan",
+      "price": 22.50,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Vegetable+Risotto",
+      "categoryId": "mains",
+      "ingredients": ["Arborio rice", "Seasonal vegetables", "White wine", "Parmesan"],
+      "allergens": ["Dairy"],
+      "dietaryInfo": ["Vegetarian", "Gluten-Free"],
+      "vegetarian": true,
+      "featured": true
+    },
+    {
+      "id": "6",
+      "name": "Spicy Chicken Tacos",
+      "description": "Three tacos with spice-rubbed grilled chicken, pickled onions, avocado, and cilantro lime crema",
+      "price": 16.95,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Chicken+Tacos",
+      "categoryId": "mains",
+      "ingredients": ["Grilled chicken", "Corn tortillas", "Pickled onions", "Avocado", "Cilantro lime crema"],
+      "allergens": ["Dairy"],
+      "spicy": true
+    },
+    {
+      "id": "7",
+      "name": "Truffle Fries",
+      "description": "Hand-cut fries tossed with truffle oil, parmesan, and fresh herbs",
+      "price": 9.95,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Truffle+Fries",
+      "categoryId": "sides",
+      "ingredients": ["Potatoes", "Truffle oil", "Parmesan", "Fresh herbs"],
+      "allergens": ["Dairy"],
+      "dietaryInfo": ["Vegetarian"],
+      "popular": true,
+      "vegetarian": true
+    },
+    {
+      "id": "8",
+      "name": "Seasonal Roasted Vegetables",
+      "description": "Locally sourced vegetables roasted with olive oil, garlic, and herbs",
+      "price": 8.95,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Roasted+Vegetables",
+      "categoryId": "sides",
+      "ingredients": ["Seasonal vegetables", "Olive oil", "Garlic", "Herbs"],
+      "dietaryInfo": ["Vegan", "Gluten-Free"],
+      "vegetarian": true
+    },
+    {
+      "id": "9",
+      "name": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with a molten center, served with vanilla bean ice cream",
+      "price": 11.95,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Chocolate+Lava+Cake",
+      "categoryId": "desserts",
+      "ingredients": ["Dark chocolate", "Flour", "Butter", "Eggs", "Vanilla ice cream"],
+      "allergens": ["Dairy", "Gluten", "Egg"],
+      "dietaryInfo": ["Vegetarian"],
+      "popular": true,
+      "vegetarian": true,
+      "featured": true
+    },
+    {
+      "id": "10",
+      "name": "Seasonal Fruit Crumble",
+      "description": "Warm seasonal fruit topped with oat streusel and served with house-made whipped cream",
+      "price": 10.95,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Fruit+Crumble",
+      "categoryId": "desserts",
+      "ingredients": ["Seasonal fruit", "Oats", "Brown sugar", "Butter", "Whipped cream"],
+      "allergens": ["Dairy", "Gluten"],
+      "dietaryInfo": ["Vegetarian"],
+      "vegetarian": true,
+      "weekend": true
+    },
+    {
+      "id": "11",
+      "name": "Craft Cocktail",
+      "description": "Rotating seasonal cocktail featuring local spirits and house-made ingredients",
+      "price": 14.00,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Craft+Cocktail",
+      "categoryId": "drinks",
+      "ingredients": ["Seasonal ingredients", "Local spirits"],
+      "featured": true
+    },
+    {
+      "id": "12",
+      "name": "Local Craft Beer",
+      "description": "Rotating selection of local craft beers",
+      "price": 8.00,
+      "image": "https://via.placeholder.com/500x300/f3f4f6/000000?text=Craft+Beer",
+      "categoryId": "drinks",
+      "ingredients": ["Varies by selection"]
+    }
+  ]
+}
